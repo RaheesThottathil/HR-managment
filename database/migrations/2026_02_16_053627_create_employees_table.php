@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('qr_token')->unique()->nullable();
             $table->boolean('status')->default(true);
             $table->string('image')->nullable();
-            $table->string('id_proof')->nullable();
+            $table->string('id_proof')->nullable(); 
             
             $table->timestamps();        
         });
